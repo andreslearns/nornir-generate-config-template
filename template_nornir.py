@@ -14,7 +14,7 @@ source_file_hosts = "template_source.csv"
 template_file_hosts = "nornir_hosts.j2" 
 
 #create an empty string for the ouput container
-output_configs =""   
+host_configs =""   
 
 #open the template_file and assign to variable f
 with open (template_file_hosts) as f: 
@@ -25,16 +25,17 @@ with open (template_file_hosts) as f:
 with open(source_file_hosts) as f:
     reader = csv.DictReader(f) #reading the csv file
     for row in reader:  #loop in all rows of csv file and assigning to row variable
-        interface_data = interface_template.render(   #assigned all the rendered file into variables
+        host_data = interface_template.render(   #assigned all the rendered file into variables
             # assigning all the row values into variables                                       
             hostname = row['hostname'],
             ipaddress = row['ipaddress'],
             platform = row['platform'],
             groups = row['groups'],)
-        output_configs += interface_data #appending all the values from interface_data to output_configs
+        host_configs += host_data #appending all the values from hosts_data to output_configs
 
 with open(path + "hosts.yml", 'w') as f:
-    f.write(output_configs)
+    f.write(host_configs)
+
 
     
 
