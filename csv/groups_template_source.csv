@@ -1,4 +1,3 @@
 groups,platform,username,password,asn
-3D,ios,noc,n0csolaire,18190
-1B,linux,noc,n0c098!,
-1C,ios,asoltes,bsit113092,18191
+core-routers,ios,noc,n0c098!,18190
+cn-3d-office,ios,asoltes,bsit113092,18190

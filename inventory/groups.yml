@@ -1,22 +1,15 @@
 
-3D:
+core-routers:
     username: noc
-    password: n0csolaire
+    password: n0c098!
     platform: ios
     data:
          asn: 18190
         
-1B:
-    username: noc
-    password: n0c098!
-    platform: linux
-    data:
-         - asn: null
-        
-1C:
+cn-3d-office:
     username: asoltes
     password: bsit113092
     platform: ios
     data:
-         asn: 18191
+         asn: 18190
         
