@@ -1,0 +1,22 @@
+
+3D:
+    username: noc
+    password: n0csolaire
+    platform: ios
+    data:
+         asn: 18190
+        
+1B:
+    username: noc
+    password: n0c098!
+    platform: linux
+    data:
+         - asn: null
+        
+1C:
+    username: asoltes
+    password: bsit113092
+    platform: ios
+    data:
+         asn: 18191
+        
