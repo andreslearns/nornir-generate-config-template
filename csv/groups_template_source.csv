@@ -1,3 +1,12 @@
 groups,platform,username,password,asn
-core-routers,ios,noc,n0c098!,18190
-cn-3d-office,ios,asoltes,bsit113092,18190
+cn-3d,ios,asoltes,bsit113092,
+cn-1c,ios,asoltes,bsit113092,
+cn-1d,ios,asoltes,bsit113092,
+cn-2ca3-cn-2cb4,ios,asoltes,bsit113092,
+cn-3c,ios,asoltes,bsit113092,
+cn-3i,ios,asoltes,bsit113092,
+cn-5o,ios,asoltes,bsit113092,
+core-routers,ios,noc,n0c098!,
+sparc-internal,ios,asoltes,bsit113092,
+sparc-mdf,ios,asoltes,bsit113092,
+sparc-idf,ios,asoltes,bsit113092,
