@@ -1,6 +1,7 @@
 ---
 core:
   num_workers: 100
+  # raise_on_error: True
 
 inventory:
   plugin: nornir.plugins.inventory.simple.SimpleInventory

@@ -1,12 +1,2 @@
-groups,platform,username,password,asn
-cn-3d,ios,asoltes,bsit113092,
-cn-1c,ios,asoltes,bsit113092,
-cn-1d,ios,asoltes,bsit113092,
-cn-2ca3-cn-2cb4,ios,asoltes,bsit113092,
-cn-3c,ios,asoltes,bsit113092,
-cn-3i,ios,asoltes,bsit113092,
-cn-5o,ios,asoltes,bsit113092,
-core-routers,ios,noc,n0c098!,
-sparc-internal,ios,asoltes,bsit113092,
-sparc-mdf,ios,asoltes,bsit113092,
-sparc-idf,ios,asoltes,bsit113092,
+groups,platform,username,password,asn,ios_version
+eve-lab,ios,asoltes,bsit113092,,
