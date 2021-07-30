@@ -3,9 +3,11 @@
     username: {{username}}
     password: {{password}}
     platform: {{platform}}
+
     data:
          {% if platform =="ios"-%}
         asn: {{asn}}
         {% else -%}
         - asn: null
         {% endif %}
+        {{tacacs_Server}}

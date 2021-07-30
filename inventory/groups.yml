@@ -1,78 +1,18 @@
 
-cn-3d:
+eve-lab1:
     username: asoltes
     password: bsit113092
     platform: ios
+
     data:
          asn: 
-        
-cn-1c:
+
+eve-lab2:
     username: asoltes
     password: bsit113092
     platform: ios
+
     data:
          asn: 
         
-cn-1d:
-    username: asoltes
-    password: bsit113092
-    platform: ios
-    data:
-         asn: 
-        
-cn-2ca3-cn-2cb4:
-    username: asoltes
-    password: bsit113092
-    platform: ios
-    data:
-         asn: 
-        
-cn-3c:
-    username: asoltes
-    password: bsit113092
-    platform: ios
-    data:
-         asn: 
-        
-cn-3i:
-    username: asoltes
-    password: bsit113092
-    platform: ios
-    data:
-         asn: 
-        
-cn-5o:
-    username: asoltes
-    password: bsit113092
-    platform: ios
-    data:
-         asn: 
-        
-core-routers:
-    username: noc
-    password: n0c098!
-    platform: ios
-    data:
-         asn: 
-        
-sparc-internal:
-    username: asoltes
-    password: bsit113092
-    platform: ios
-    data:
-         asn: 
-        
-sparc-mdf:
-    username: asoltes
-    password: bsit113092
-    platform: ios
-    data:
-         asn: 
-        
-sparc-idf:
-    username: asoltes
-    password: bsit113092
-    platform: ios
-    data:
-         asn: 
         

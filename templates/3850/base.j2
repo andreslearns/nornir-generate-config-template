@@ -1,0 +1,11 @@
+tacacs server TACACS-SERVER
+ address ipv4 {{tacacs_server}}
+ key {{tacacs_key}}
+
+aaa group server tacacs+ sparc-tacacs
+ server name TACACS-SERVER
+ exit
+
+aaa authentication login default group tacacs+ local
+aaa authorization exec default group tacacs+
+aaa accounting commands 15 default start-stop group tacacs+
